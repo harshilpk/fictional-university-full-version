@@ -42,7 +42,7 @@ define( 'DB_NAME', 'harshilp_universitydata' );
 define( 'DB_USER', 'harshilp_user1' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Leonardo@007' );
+define( 'DB_PASSWORD', 'Chanakya@00731' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
