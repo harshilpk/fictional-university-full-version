@@ -1,0 +1,912 @@
+[25-Aug-2018 19:55:39 UTC] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[25-Aug-2018 20:58:10 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[25-Aug-2018 20:58:55 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[25-Aug-2018 22:17:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function qp_enqueue_style() in /app/public/wp-content/themes/fictional-university-theme/functions.php:4
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(1447): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/fictional-university-theme/header.php(4): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+ in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[25-Aug-2018 22:20:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[25-Aug-2018 23:44:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_url() in /app/public/wp-content/themes/fictional-university-theme/page.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[25-Aug-2018 23:45:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_url() in /app/public/wp-content/themes/fictional-university-theme/page.php:8
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[25-Aug-2018 23:49:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 14
+[26-Aug-2018 00:19:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/page.php on line 20 and exactly 1 expected in /app/public/wp-includes/post.php:6205
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/page.php(20): wp_get_post_parent_id()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/post.php on line 6205
+[27-Aug-2018 06:25:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:25:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:26:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:26:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:26:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:27:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:27:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 06:28:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 20:31:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 20:31:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 20:34:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 20:46:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[27-Aug-2018 20:47:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_parentid() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[29-Aug-2018 22:48:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[29-Aug-2018 23:24:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 28
+[31-Aug-2018 21:44:39 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[31-Aug-2018 21:44:39 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[31-Aug-2018 21:44:41 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[31-Aug-2018 21:44:46 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[31-Aug-2018 21:44:56 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 24
+[31-Aug-2018 21:55:10 UTC] PHP Parse error:  syntax error, unexpected ''menu_icon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 8
+[31-Aug-2018 21:55:10 UTC] PHP Parse error:  syntax error, unexpected ''menu_icon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 8
+[31-Aug-2018 21:59:50 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[31-Aug-2018 21:59:50 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 36
+[31-Aug-2018 22:20:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 65
+[31-Aug-2018 22:21:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 65
+[31-Aug-2018 22:21:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 65
+[31-Aug-2018 22:22:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 65
+[31-Aug-2018 22:31:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 16
+[31-Aug-2018 22:31:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 16
+[31-Aug-2018 22:32:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function arrays() in /app/public/wp-content/mu-plugins/university-post-types.php:16
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(31): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/edit.php(10): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/mu-plugins/university-post-types.php on line 16
+[31-Aug-2018 22:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function arrays() in /app/public/wp-content/mu-plugins/university-post-types.php:16
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-admin/admin.php(31): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/post.php(12): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/mu-plugins/university-post-types.php on line 16
+[31-Aug-2018 22:32:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function arrays() in /app/public/wp-content/mu-plugins/university-post-types.php:16
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/mu-plugins/university-post-types.php on line 16
+[31-Aug-2018 22:33:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function arrays() in /app/public/wp-content/mu-plugins/university-post-types.php:5
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/mu-plugins/university-post-types.php on line 5
+[31-Aug-2018 22:33:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function arrays() in /app/public/wp-content/mu-plugins/university-post-types.php:5
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_post_types('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-settings.php(450): do_action('init')
+#4 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#5 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-content/mu-plugins/university-post-types.php on line 5
+[06-Sep-2018 00:38:40 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 23
+[06-Sep-2018 00:38:41 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 23
+[06-Sep-2018 00:38:41 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 23
+[06-Sep-2018 00:39:14 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 23
+[06-Sep-2018 00:39:36 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 23
+[06-Sep-2018 01:07:27 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 23
+[06-Sep-2018 01:07:27 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 23
+[06-Sep-2018 01:18:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 35
+[06-Sep-2018 07:02:12 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 28
+[06-Sep-2018 07:02:25 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 28
+[06-Sep-2018 07:02:26 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 28
+[06-Sep-2018 07:03:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
+[06-Sep-2018 07:04:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
+[06-Sep-2018 07:05:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
+[06-Sep-2018 07:06:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 30
+[06-Sep-2018 07:11:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
+[06-Sep-2018 07:13:28 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-event.php on line 29
+[06-Sep-2018 07:25:15 UTC] PHP Parse error:  syntax error, unexpected ''compare'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 40
+[06-Sep-2018 07:30:30 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 47
+[06-Sep-2018 07:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_archive_link() in /app/public/wp-content/themes/fictional-university-theme/header.php:20
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/fictional-university-theme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[06-Sep-2018 07:40:42 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS) in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[07-Sep-2018 07:29:09 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 45
+[07-Sep-2018 22:06:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 6
+[07-Sep-2018 22:06:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 6
+[07-Sep-2018 22:06:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 6
+[07-Sep-2018 22:07:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[07-Sep-2018 22:07:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[07-Sep-2018 22:07:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[07-Sep-2018 22:08:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 68
+[07-Sep-2018 22:16:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 8
+[07-Sep-2018 22:24:00 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[07-Sep-2018 22:35:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[07-Sep-2018 22:35:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 15
+[09-Sep-2018 01:30:10 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 33
+[09-Sep-2018 01:30:10 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 33
+[09-Sep-2018 19:06:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 88
+[09-Sep-2018 19:10:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 105
+[09-Sep-2018 19:13:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 96
+[09-Sep-2018 19:14:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/single-program.php on line 88
+[10-Sep-2018 01:10:32 UTC] PHP Parse error:  syntax error, unexpected ''supports'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 63
+[10-Sep-2018 01:10:32 UTC] PHP Parse error:  syntax error, unexpected ''supports'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 63
+[10-Sep-2018 01:10:32 UTC] PHP Parse error:  syntax error, unexpected ''supports'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 63
+[10-Sep-2018 01:10:32 UTC] PHP Parse error:  syntax error, unexpected ''supports'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 63
+[10-Sep-2018 01:22:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 9
+[10-Sep-2018 01:23:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 9
+[10-Sep-2018 01:23:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 9
+[10-Sep-2018 01:24:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 9
+[10-Sep-2018 01:36:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 25
+[10-Sep-2018 01:42:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:46:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:20
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 20
+[10-Sep-2018 01:46:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:20
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 20
+[10-Sep-2018 01:47:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:20
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 20
+[10-Sep-2018 01:47:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:47:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:47:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:48:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:48:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:48:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:48:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:49:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:49:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:49:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:49:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[10-Sep-2018 01:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php:16
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): requ in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 16
+[16-Sep-2018 21:38:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 83
+[16-Sep-2018 21:38:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 83
+[16-Sep-2018 21:38:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 83
+[16-Sep-2018 22:04:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 102
+[16-Sep-2018 22:04:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 102
+[16-Sep-2018 22:04:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 102
+[16-Sep-2018 22:05:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 103
+[16-Sep-2018 22:24:46 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 103
+[16-Sep-2018 22:25:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 103
+[16-Sep-2018 22:25:29 UTC] PHP Parse error:  syntax error, unexpected 'array_push' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 104
+[16-Sep-2018 22:25:39 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 103
+[16-Sep-2018 22:25:43 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 103
+[16-Sep-2018 23:36:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 66
+[16-Sep-2018 23:36:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 66
+[16-Sep-2018 23:36:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university-theme/inc/search-route.php on line 66
+[16-Sep-2018 23:55:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/header.php on line 13 and at least 1 expected in /app/public/wp-includes/formatting.php:3789
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/header.php(13): esc_url()
+#1 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#3 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#4 /app/public/wp-content/themes/fictional-university-theme/index.php(3): get_header()
+#5 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/formatting.php on line 3789
+[16-Sep-2018 23:55:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/header.php on line 13 and at least 1 expected in /app/public/wp-includes/formatting.php:3789
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/header.php(13): esc_url()
+#1 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#2 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#3 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#4 /app/public/wp-content/themes/fictional-university-theme/archive-campus.php(3): get_header()
+#5 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#6 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#7 /app/public/index.php(17): require('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/formatting.php on line 3789
+[17-Sep-2018 01:06:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/search.php on line 23
+[17-Sep-2018 01:49:57 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/header.php on line 30
+[17-Sep-2018 01:55:58 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 115
+[17-Sep-2018 01:55:58 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 115
+[17-Sep-2018 01:55:58 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 115
+[17-Sep-2018 01:57:57 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 115
+[17-Sep-2018 01:58:51 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 115
+[17-Sep-2018 01:58:52 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 115
+[17-Sep-2018 02:00:57 UTC] PHP Fatal error:  Cannot redeclare redirectSubsToFrontEnd() (previously declared in /app/public/wp-content/themes/fictional-university-theme/functions.php:116) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 131
+[17-Sep-2018 02:05:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[17-Sep-2018 02:06:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 137
+[20-Sep-2018 15:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_uel() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:4
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 4
+[20-Sep-2018 16:03:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 31
+[20-Sep-2018 16:04:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 31
+[20-Sep-2018 16:04:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 32
+[20-Sep-2018 16:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 28
+[20-Sep-2018 16:04:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 28
+[20-Sep-2018 16:05:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 28
+[20-Sep-2018 16:05:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 28
+[20-Sep-2018 16:05:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 28
+[20-Sep-2018 16:06:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 28
+[20-Sep-2018 16:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 28
+[20-Sep-2018 16:07:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:29
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 29
+[20-Sep-2018 16:08:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:30
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 30
+[20-Sep-2018 16:10:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Query as array in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:27
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 27
+[20-Sep-2018 16:14:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:29
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 29
+[20-Sep-2018 16:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_attr() in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php:30
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page-my-notes.php on line 30
+[24-Sep-2018 16:59:17 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 16:59:17 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 16:59:17 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 16:59:17 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:00:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 164
+[24-Sep-2018 17:00:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 164
+[24-Sep-2018 17:22:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_textarea_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:160
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3449): apply_filters('wp_insert_post_...', Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(530): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:22:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_textarea_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:160
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3449): apply_filters('wp_insert_post_...', Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(530): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:22:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_textarea_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:160
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3449): apply_filters('wp_insert_post_...', Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(530): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:22:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_textarea_field() in /app/public/wp-content/themes/fictional-university-theme/functions.php:160
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(288): makeNotePrivate(Array)
+#1 /app/public/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /app/public/wp-includes/post.php(3449): apply_filters('wp_insert_post_...', Array, Array)
+#3 /app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(530): wp_insert_post(Array, true)
+#4 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): WP_REST_Posts_Controller->create_item(Object(WP_REST_Request))
+#5 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#6 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/wp/v2/note')
+#7 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#8 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:23:42 UTC] WordPress database error Unknown column 'post-content' in 'field list' for query INSERT INTO `wp_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`, `post-content`, `post-title`) VALUES (3, '2018-09-24 17:23:42', '2018-09-24 17:23:42', 'sdsd', '', 'sdsdsdsd <strong> sdsds', '', 'private', 'note', 'closed', 'closed', '', 'sdsdsdsd-sdsds', '', '', '2018-09-24 17:23:42', '2018-09-24 17:23:42', 0, 0, '', '', '', '') made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[24-Sep-2018 17:27:46 UTC] WordPress database error Unknown column 'post-content' in 'field list' for query INSERT INTO `wp_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`, `post-content`, `post-title`) VALUES (3, '2018-09-24 17:27:46', '2018-09-24 17:27:46', 'ssas', '', 'aasa', '', 'private', 'note', 'closed', 'closed', '', 'aasa', '', '', '2018-09-24 17:27:46', '2018-09-24 17:27:46', 0, 0, '', '', '', '') made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[24-Sep-2018 17:28:54 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:28:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:29:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 160
+[24-Sep-2018 17:29:15 UTC] WordPress database error Unknown column 'post-content' in 'field list' for query INSERT INTO `wp_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`, `post-content`, `post-title`) VALUES (3, '2018-09-24 17:29:15', '2018-09-24 17:29:15', 'asa', '', 'asas', '', 'private', 'note', 'closed', 'closed', '', 'asas', '', '', '2018-09-24 17:29:15', '2018-09-24 17:29:15', 0, 0, '', '', NULL, NULL) made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[24-Sep-2018 17:29:42 UTC] WordPress database error Unknown column 'post-content' in 'field list' for query INSERT INTO `wp_posts` (`post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_content_filtered`, `post_title`, `post_excerpt`, `post_status`, `post_type`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_parent`, `menu_order`, `post_mime_type`, `guid`, `post-content`, `post-title`) VALUES (3, '2018-09-24 17:29:42', '2018-09-24 17:29:42', 'assas', '', 'asas', '', 'private', 'note', 'closed', 'closed', '', 'asas', '', '', '2018-09-24 17:29:42', '2018-09-24 17:29:42', 0, 0, '', '', NULL, NULL) made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->create_item, wp_insert_post
+[24-Sep-2018 17:29:46 UTC] WordPress database error Unknown column 'post-content' in 'field list' for query UPDATE `wp_posts` SET `post_author` = 3, `post_date` = '2018-09-24 17:01:23', `post_date_gmt` = '2018-09-24 17:01:23', `post_content` = 'asasas', `post_content_filtered` = '', `post_title` = 'sxaassa', `post_excerpt` = '', `post_status` = 'trash', `post_type` = 'note', `comment_status` = 'closed', `ping_status` = 'closed', `post_password` = '', `post_name` = 'sxaassa__trashed', `to_ping` = '', `pinged` = '', `post_modified` = '2018-09-24 17:29:46', `post_modified_gmt` = '2018-09-24 17:29:46', `post_parent` = 0, `menu_order` = 0, `post_mime_type` = '', `guid` = 'http://fictional-university.local/note/sxaassa/', `post-content` = NULL, `post-title` = NULL WHERE `ID` = 104 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Posts_Controller->delete_item, wp_trash_post, wp_update_post, wp_insert_post
+[27-Sep-2018 15:13:39 UTC] PHP Parse error:  syntax error, unexpected ''value'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 27
+[27-Sep-2018 15:14:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Query() in /app/public/wp-content/themes/fictional-university-theme/single-professor.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 21
+[27-Sep-2018 15:14:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Query() in /app/public/wp-content/themes/fictional-university-theme/single-professor.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 21
+[27-Sep-2018 15:14:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WP_Query() in /app/public/wp-content/themes/fictional-university-theme/single-professor.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 21
+[27-Sep-2018 15:21:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 47
+[27-Sep-2018 15:45:51 UTC] PHP Parse error:  syntax error, unexpected '' thanks for deleting'' (T_CONSTANT_ENCAPSED_STRING) in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 23
+[27-Sep-2018 15:46:51 UTC] PHP Parse error:  syntax error, unexpected '' thanks for deleting'' (T_CONSTANT_ENCAPSED_STRING) in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 23
+[27-Sep-2018 15:46:51 UTC] PHP Parse error:  syntax error, unexpected '' thanks for deleting'' (T_CONSTANT_ENCAPSED_STRING) in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 23
+[27-Sep-2018 15:49:00 UTC] PHP Parse error:  syntax error, unexpected '' thanks for deleting'' (T_CONSTANT_ENCAPSED_STRING) in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 23
+[27-Sep-2018 16:20:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_loggedin() in /app/public/wp-content/themes/fictional-university-theme/single-professor.php:33
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 33
+[27-Sep-2018 16:22:31 UTC] PHP Parse error:  syntax error, unexpected 'does' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 22
+[27-Sep-2018 16:39:04 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 53
+[27-Sep-2018 16:40:23 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 53
+[27-Sep-2018 16:40:34 UTC] PHP Recoverable fatal error:  Object of class WP_Post could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 53
+[27-Sep-2018 16:41:25 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 51
+[27-Sep-2018 16:51:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 63
+[27-Sep-2018 16:52:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 63
+[27-Sep-2018 16:52:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function saniztize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php:57
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): deletelike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/publ in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 57
+[27-Sep-2018 16:52:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function saniztize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php:57
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): deletelike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/publ in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 57
+[27-Sep-2018 16:52:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function saniztize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php:57
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): deletelike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/publ in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 57
+[27-Sep-2018 16:52:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function saniztize_text_field() in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php:57
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(936): deletelike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(373): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(713): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(960): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/publ in /app/public/wp-content/themes/fictional-university-theme/inc/like-route.php on line 57
